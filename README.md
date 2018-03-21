@@ -1,0 +1,2 @@
+# Animazing
+Anime Wiki
