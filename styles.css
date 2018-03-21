@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+h1 { 
+    padding: 10px 0;
+    background-color: #f6fa20;
+    margin: 0;
+    text-align: center
+}
+body {
+    background-color: rgb(0, 0, 0);
+    font-family: Helvetica, sans-serif;
+    margin: 0;
+}
+p {
+    color: #fff;
+    font-size: 25px;
+    text-align: center;
+    min-height: 60px;
+}
+div.movie {
+    display: inline-block;
+    width: 25%;
+    float: left;
+    margin-top: 20px;
+}
+.image {
+    display: block;
+    margin: 0 auto;
+}
+.image:hover,
+.movie-title:hover {
+    opacity: 0.4;
+    cursor: pointer;
+}
+@media (max-width: 768px) {
+    div.movie {
+        display: block;
+        width: 100%;
+        float: none;
+        margin: 25px auto 120px;
+    }
+    .movie-title {
+        margin-bottom: 0;
+    }
+}
